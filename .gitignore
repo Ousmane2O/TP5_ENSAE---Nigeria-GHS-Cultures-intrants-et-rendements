@@ -1,23 +1,17 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
-.vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
-*.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-files
-*.bclicense
-*.flf
-#Test results file
-TestResults.xml
+﻿# Données brutes et nettoyées (licence Banque Mondiale)
+data/raw/
+data/processed/
+# Cache renv (lourd, renv.lock suffit)
+renv/
+# Fichiers système
+.DS_Store
+Thumbs.db
+# Fichiers R temporaires
+.Rhistory
+.Rprofile
+.RData
+.Rproj.user/
+
+# Notes internes docs
+# rapports/TP2_R_Interpretations.md
+# rapports/TP2_R_Some_Lesson.md
